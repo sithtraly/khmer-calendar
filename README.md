@@ -3,7 +3,7 @@
 **The #1 Khmer Lunar Calendar Add-on** – Convert any date to **full Buddhist calendar** with **moon phase, zodiac, sak cycle, worship & koar days**.
 
 [![Install from Google Workspace Marketplace](https://img.shields.io/badge/Install-Marketplace-blue?logo=google&logoColor=white)](https://workspace.google.com/marketplace/app/khmer_calendar/1086722385975)
-[![GitHub Stars](https://img.shields.io/github/stars/yourname/khmer-calendar?style=social)](https://github.com/sithtraly/khmer-calendar)
+[![GitHub Stars](https://img.shields.io/github/stars/sithtraly/khmer-calendar?style=social)](https://github.com/sithtraly/khmer-calendar)
 [![License](https://img.shields.io/badge/license-Free%20Forever-green)](LICENSE)
 
 ---
