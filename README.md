@@ -35,4 +35,7 @@
 
 ### 1. **Formula (Fastest)**
 ```Google Sheet
-=KHMER_DATE(A1)
+=KhmerDate() // current date
+=KhmerDate(A1) // date from a cell
+=KhmerDate("1999-12-31") // string value
+=KhmerDate(946598400000) // number value
