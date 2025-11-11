@@ -8,6 +8,8 @@
 
 ---
 
+
+
 ## ✨ Features
 
 | Feature | Description |
@@ -39,3 +41,10 @@
 =KhmerDate(A1) // date from a cell
 =KhmerDate("1999-12-31") // string value
 =KhmerDate(946598400000) // number value
+```
+---
+## Legal
+
+[Term](https://sithtraly.github.io/khmer-calendar/term.html)
+
+[Privacy](https://sithtraly.github.io/khmer-calendar/privacy.html)
