@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khmer Calendar for Google Sheets</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #aac3e8;
+      box-shadow: 0 1px 5px gray;
+      padding: 5px 10px;
+    }
+
+    nav img {
+      margin-right: 12px;
+    }
+
+    .container {
+      padding: 8px;
+    }
+
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid gray;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 4px;
+    }
+
+    body {
+      font-family: "Noto Sans Khmer", "Khmer OS Battambang", Arial, sans-serif;
+      margin: 24px;
+      color: #111;
+      line-height: 1.6;
+      max-width: 820px;
+    }
+
+    .steps {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 18px;
+    }
+
+    ol {
+      margin-left: 22px;
+    }
+
+    code {
+      background: #fff2cc;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    a {
+      color: #0b63d6;
+    }
+
+    footer {
+      color: #555;
+      font-size: 0.9rem;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <img src="logo.png" alt="Khmer Date Logo">
+    <h1 id="khmer-calendar-for-google-sheets">Khmer Calendar for Google Sheets</h1>
+  </nav>
+  <div class="container">
+    <p><strong>The #1 Khmer Lunar Calendar Add-on</strong> – Convert any date to <strong>full Buddhist calendar</strong> with <strong>moon phase, zodiac, sak cycle, worship &amp; koar days</strong>.</p>
+    <p><a href="https://workspace.google.com/marketplace/app/khmer_calendar/1086722385975"><img src="https://img.shields.io/badge/Install-Marketplace-blue?logo=google&amp;logoColor=white" alt="Install from Google Workspace Marketplace"></a>
+      <a href="https://github.com/sithtraly/khmer-calendar"><img src="https://img.shields.io/github/stars/sithtraly/khmer-calendar?style=social" alt="GitHub Stars"></a>
+      <a href="LICENSE"><img src="https://img.shields.io/badge/license-Free%20Forever-green" alt="License"></a>
+    </p>
+    <hr>
+    <h2 id="-features">✨ Features</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Full Lunar Date</strong></td>
+          <td><code>ថ្ងៃចន្ទ ១៥រោច ខែតុលា ឆ្នាំម្សាញ់ សំរឹទ្ធិស័ក ព.ស. ២៥៦៨</code></td>
+        </tr>
+        <tr>
+          <td><strong>Moon Phase</strong></td>
+          <td><code>កើត</code> or <code>រោច</code></td>
+        </tr>
+        <tr>
+          <td><strong>Zodiac Animal</strong></td>
+          <td><code>ជូត, ម្សាញ់, វក...</code></td>
+        </tr>
+        <tr>
+          <td><strong>Sak Cycle</strong></td>
+          <td><code>ឯកស័ក, សំរឹទ្ធិស័ក...</code></td>
+        </tr>
+        <tr>
+          <td><strong>Worship Day</strong></td>
+          <td>8, 15, 30/29-15 → <code>🙏</code></td>
+        </tr>
+        <tr>
+          <td><strong>Koar Day</strong></td>
+          <td>14, 30/29-14 → <code>🕯️</code></td>
+        </tr>
+        <tr>
+          <td><strong>Formula</strong></td>
+          <td><code>=KHMER_DATE(A1)</code></td>
+        </tr>
+        <tr>
+          <td><strong>Menu Picker</strong></td>
+          <td>Click → Pick date → Insert</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h2 id="-install-1-click-">🚀 Install (1 Click)</h2>
+    <p><a href="https://workspace.google.com/marketplace/app/khmer_calendar/1086722385975">Install from Google Workspace Marketplace</a></p>
+    <p>After install, go to <strong>Khmer Calendar → Insert Khmer Date</strong></p>
+
+    <hr>
+    <h2 id="-how-to-use">📋 How to Use</h2>
+    <h3 id="1-formula-fastest-">1. <strong>Formula (Fastest)</strong></h3>
+    <p><b>Google Sheet</b></p>
+    <mark>
+      =KhmerDate() // current date <br>
+      =KhmerDate(A1) // date from a cell <br>
+      =KhmerDate(&quot;1999-12-31&quot;) // string value <br>
+      =KhmerDate(946598400000) // number value
+    </mark>
+
+    <footer>
+      <p>
+        &copy;2025 Khmer Calendar | 
+        <a href="https://sithtraly.github.io/khmer-calendar/term.html">Term</a> and 
+        <a href="https://sithtraly.github.io/khmer-calendar/privacy.html">Privacy</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
