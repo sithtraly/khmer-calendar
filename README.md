@@ -1,3 +1,4 @@
+![Khmer Date Logo](logo.png)
 # Khmer Calendar for Google Sheets
 
 **The #1 Khmer Lunar Calendar Add-on** – Convert any date to **full Buddhist calendar** with **moon phase, zodiac, sak cycle, worship & koar days**.
